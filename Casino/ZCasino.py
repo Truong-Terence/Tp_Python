@@ -76,7 +76,7 @@ while 0 < argent:
         gain = ceil(mise/2)#Mise à jour de la valeur du gain
         print("Rouge, récupérez la moitié de la mise : ", mise, "$")
     else:
-        print("Perdu ! File les ", mise, "$ baltringue !")
+        print("Perdu ! File les ", mise, "$ !")
         gain = 0
     
     argent += gain#Mise à jour du portefeuille
@@ -85,13 +85,13 @@ while 0 < argent:
     while 1:#Boucle de retry ou de mauvaise réponse
         reponse = input("Rejouer ? (o ou n) ")
         if reponse == "o":
-            print("Okey !")
+            print("Ok !")
             break
         elif reponse == "n":
             print("Okey ... :\'( ")
             break
         else:
-            print("T'es con ou quoi ?")
+            print("C'était binaire comme question..")
             continue
         
     if reponse == "n":#Fermeture programme
