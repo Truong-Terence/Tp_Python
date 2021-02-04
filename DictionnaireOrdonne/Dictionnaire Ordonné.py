@@ -5,7 +5,7 @@ Created on Mon Apr 13 15:37:14 2020
 @author: tvnte
 """
 
-#import os
+import os
 
 def DictionnaireOrdonne(**kwargs):#Permet à la fonction d'avoir de 0 à x arguments
     "Fonction permettant de gérer un dictionnaire"""
@@ -53,16 +53,4 @@ print(choses, len(choses), type(choses))
 
 
 
-
-
-    
-
-
-
-
-
-
-
-
-
-#os.system("pause")
+os.system("pause")
